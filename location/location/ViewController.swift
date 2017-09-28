@@ -28,8 +28,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         
 //        locationManager = CLLocationManager()
         
-//        view.addSubview(mapView)
-//        mapView.fillSuperview()
+        view.addSubview(mapView)
+        mapView.fillSuperview()
         
         
 //        // https://www.youtube.com/watch?v=Z272SMC9zuQ
@@ -73,11 +73,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         }
     }
     
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        let location: CLLocation = locations[0]
-        locationManager.stopUpdatingLocation() // Get location once if you do not need to track. Saves battery.
-        print(location)
-    }
+//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+//        let location: CLLocation = locations[0]
+//        locationManager.stopUpdatingLocation() // Get location once if you do not need to track. Saves battery.
+//        print(location)
+//    }
     
 //    private func isAuthorizedToGetUserLocation() {
 //        // https://developer.apple.com/documentation/corelocation/cllocationmanager/1423523-authorizationstatus
@@ -90,28 +90,29 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
 //        }
 //    }
 
-//    // This function is called every time our users location is updated.
-//    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-//        // All the locations are going to be stored in this locations array. We want the first element in the array, so the most recent position of our user.
-//        let location: CLLocation = locations[0]
-//        let latitude: CLLocationDegrees = location.coordinate.latitude
-//        let longitude: CLLocationDegrees = location.coordinate.longitude
-//        // For span we are only going to say how much we want our map to be zoomed in on our users location.
-//        let span: MKCoordinateSpan = MKCoordinateSpanMake(0.005, 0.005)
-//        //        let span: MKCoordinateSpan = MKCoordinateSpanMake(0.01, 0.01)
-//        //        let span: MKCoordinateSpan = MKCoordinateSpanMake(0.06, 0.06)
-//        let myLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
-//        let region: MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
-//        mapView.setRegion(region, animated: true)
-//        // Add the blue dot.
-//        mapView.showsUserLocation = true
-//
-//        // We can extract all kinds of information from our location variable.
-//        print(location.altitude)
-//        print(location.speed)
-//        print(location.course)
-//
-//    }
+    // This function is called every time our users location is updated.
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        // All the locations are going to be stored in this locations array. We want the first element in the array, so the most recent position of our user.
+        let location: CLLocation = locations[0]
+        let latitude: CLLocationDegrees = location.coordinate.latitude
+        let longitude: CLLocationDegrees = location.coordinate.longitude
+        // For span we are only going to say how much we want our map to be zoomed in on our users location.
+        let span: MKCoordinateSpan = MKCoordinateSpanMake(0.005, 0.005)
+        //        let span: MKCoordinateSpan = MKCoordinateSpanMake(0.01, 0.01)
+        //        let span: MKCoordinateSpan = MKCoordinateSpanMake(0.06, 0.06)
+        let myLocation: CLLocationCoordinate2D = CLLocationCoordinate2DMake(latitude, longitude)
+        let region: MKCoordinateRegion = MKCoordinateRegionMake(myLocation, span)
+        mapView.setRegion(region, animated: true)
+        // Add the blue dot.
+        mapView.showsUserLocation = true
+
+        // We can extract all kinds of information from our location variable.
+        print(location.altitude)
+        print(location.speed)
+        print(location.course)
+        locationManager.stopUpdatingLocation()
+
+    }
     
     // This method will be called each time when a user changes his location access preference. Ø: It is called everytime the app starts.
     // https://www.youtube.com/watch?v=XyncTJdXbbw

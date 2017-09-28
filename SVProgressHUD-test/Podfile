@@ -1,0 +1,6 @@
+platform :ios, '10.3'
+use_frameworks!
+
+target 'SVProgressHUD-test' do
+    pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+end
