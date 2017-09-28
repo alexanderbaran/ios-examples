@@ -1,0 +1,7 @@
+platform :ios, '10.3'
+use_frameworks!
+
+target 'remote-notifications' do
+    pod 'Firebase'
+    pod 'Firebase/Messaging'
+end
