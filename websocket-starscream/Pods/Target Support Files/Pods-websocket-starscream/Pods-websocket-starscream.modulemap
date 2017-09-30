@@ -1,0 +1,6 @@
+framework module Pods_websocket_starscream {
+  umbrella header "Pods-websocket-starscream-umbrella.h"
+
+  export *
+  module * { export * }
+}

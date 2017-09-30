@@ -1,0 +1,7 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.3'
+use_frameworks!
+
+target 'websocket-starscream' do
+    pod 'Starscream', '~> 3.0.0'
+end
