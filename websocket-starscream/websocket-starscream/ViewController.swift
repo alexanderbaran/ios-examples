@@ -57,10 +57,18 @@ class ViewController: UIViewController, WebSocketDelegate {
         NotificationCenter.default.addObserver(self, selector: #selector(handleCustomNotification), name: customNotificationName, object: nil)
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
-        super.viewDidDisappear(animated)
+//    // DO NOT remove observer in viewDidDisappear, because viewDidLoad is run once. Use deinit().
+//    override func viewDidDisappear(_ animated: Bool) {
+//        super.viewDidDisappear(animated)
+//        // Cleanup when the view disappears. This will remove all observers for this class.
+////        NotificationCenter.default.removeObserver(self)
+//        // This will only remove the specified observer from this class.
+//        NotificationCenter.default.removeObserver(self, name: customNotificationName, object: nil)
+//    }
+    
+    deinit {
         // Cleanup when the view disappears. This will remove all observers for this class.
-//        NotificationCenter.default.removeObserver(self)
+        //        NotificationCenter.default.removeObserver(self)
         // This will only remove the specified observer from this class.
         NotificationCenter.default.removeObserver(self, name: customNotificationName, object: nil)
     }
