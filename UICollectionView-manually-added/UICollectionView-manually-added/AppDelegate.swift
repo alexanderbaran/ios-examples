@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  UIScrollView
+//  UICollectionView-manually-added
 //
-//  Created by Alexander Baran on 30/09/2017.
+//  Created by Alexander Baran on 30/12/2017.
 //  Copyright © 2017 Alexander Baran. All rights reserved.
 //
 

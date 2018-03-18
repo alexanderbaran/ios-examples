@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A395800D1F8047C2002B6D52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395800C1F8047C2002B6D52 /* AppDelegate.swift */; };
-		A395800F1F8047C2002B6D52 /* ViewController_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A395800E1F8047C2002B6D52 /* ViewController_1.swift */; };
-		A39580121F8047C2002B6D52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39580101F8047C2002B6D52 /* Main.storyboard */; };
-		A39580141F8047C2002B6D52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39580131F8047C2002B6D52 /* Assets.xcassets */; };
-		A39580171F8047C2002B6D52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39580151F8047C2002B6D52 /* LaunchScreen.storyboard */; };
-		A3D300741F86BE8400E1FE87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D300731F86BE8400E1FE87 /* ViewController.swift */; };
+		A373E8C4205A037300D92961 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A373E8C3205A037300D92961 /* AppDelegate.swift */; };
+		A373E8C6205A037300D92961 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A373E8C5205A037300D92961 /* CollectionViewController.swift */; };
+		A373E8C9205A037300D92961 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A373E8C7205A037300D92961 /* Main.storyboard */; };
+		A373E8CB205A037300D92961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A373E8CA205A037300D92961 /* Assets.xcassets */; };
+		A373E8CE205A037300D92961 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A373E8CC205A037300D92961 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A39580091F8047C2002B6D52 /* UIScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A395800C1F8047C2002B6D52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A395800E1F8047C2002B6D52 /* ViewController_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController_1.swift; sourceTree = "<group>"; };
-		A39580111F8047C2002B6D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A39580131F8047C2002B6D52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A39580161F8047C2002B6D52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A39580181F8047C2002B6D52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3D300731F86BE8400E1FE87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A373E8C0205A037300D92961 /* UICollectionView.contentInset.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionView.contentInset.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A373E8C3205A037300D92961 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A373E8C5205A037300D92961 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		A373E8C8205A037300D92961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A373E8CA205A037300D92961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A373E8CD205A037300D92961 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A373E8CF205A037300D92961 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A39580061F8047C2002B6D52 /* Frameworks */ = {
+		A373E8BD205A037300D92961 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,73 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A39580001F8047C2002B6D52 = {
+		A373E8B7205A037300D92961 = {
 			isa = PBXGroup;
 			children = (
-				A395800B1F8047C2002B6D52 /* UIScrollView */,
-				A395800A1F8047C2002B6D52 /* Products */,
+				A373E8C2205A037300D92961 /* UICollectionView.contentInset */,
+				A373E8C1205A037300D92961 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A395800A1F8047C2002B6D52 /* Products */ = {
+		A373E8C1205A037300D92961 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A39580091F8047C2002B6D52 /* UIScrollView.app */,
+				A373E8C0205A037300D92961 /* UICollectionView.contentInset.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A395800B1F8047C2002B6D52 /* UIScrollView */ = {
+		A373E8C2205A037300D92961 /* UICollectionView.contentInset */ = {
 			isa = PBXGroup;
 			children = (
-				A395800C1F8047C2002B6D52 /* AppDelegate.swift */,
-				A3D300731F86BE8400E1FE87 /* ViewController.swift */,
-				A395800E1F8047C2002B6D52 /* ViewController_1.swift */,
-				A39580101F8047C2002B6D52 /* Main.storyboard */,
-				A39580131F8047C2002B6D52 /* Assets.xcassets */,
-				A39580151F8047C2002B6D52 /* LaunchScreen.storyboard */,
-				A39580181F8047C2002B6D52 /* Info.plist */,
+				A373E8C3205A037300D92961 /* AppDelegate.swift */,
+				A373E8C5205A037300D92961 /* CollectionViewController.swift */,
+				A373E8C7205A037300D92961 /* Main.storyboard */,
+				A373E8CA205A037300D92961 /* Assets.xcassets */,
+				A373E8CC205A037300D92961 /* LaunchScreen.storyboard */,
+				A373E8CF205A037300D92961 /* Info.plist */,
 			);
-			path = UIScrollView;
+			path = UICollectionView.contentInset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A39580081F8047C2002B6D52 /* UIScrollView */ = {
+		A373E8BF205A037300D92961 /* UICollectionView.contentInset */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A395801B1F8047C2002B6D52 /* Build configuration list for PBXNativeTarget "UIScrollView" */;
+			buildConfigurationList = A373E8D2205A037300D92961 /* Build configuration list for PBXNativeTarget "UICollectionView.contentInset" */;
 			buildPhases = (
-				A39580051F8047C2002B6D52 /* Sources */,
-				A39580061F8047C2002B6D52 /* Frameworks */,
-				A39580071F8047C2002B6D52 /* Resources */,
+				A373E8BC205A037300D92961 /* Sources */,
+				A373E8BD205A037300D92961 /* Frameworks */,
+				A373E8BE205A037300D92961 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UIScrollView;
-			productName = UIScrollView;
-			productReference = A39580091F8047C2002B6D52 /* UIScrollView.app */;
+			name = UICollectionView.contentInset;
+			productName = UICollectionView.contentInset;
+			productReference = A373E8C0205A037300D92961 /* UICollectionView.contentInset.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A39580011F8047C2002B6D52 /* Project object */ = {
+		A373E8B8205A037300D92961 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Alexander Baran";
 				TargetAttributes = {
-					A39580081F8047C2002B6D52 = {
+					A373E8BF205A037300D92961 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = A39580041F8047C2002B6D52 /* Build configuration list for PBXProject "UIScrollView" */;
+			buildConfigurationList = A373E8BB205A037300D92961 /* Build configuration list for PBXProject "UICollectionView.contentInset" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,55 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = A39580001F8047C2002B6D52;
-			productRefGroup = A395800A1F8047C2002B6D52 /* Products */;
+			mainGroup = A373E8B7205A037300D92961;
+			productRefGroup = A373E8C1205A037300D92961 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A39580081F8047C2002B6D52 /* UIScrollView */,
+				A373E8BF205A037300D92961 /* UICollectionView.contentInset */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A39580071F8047C2002B6D52 /* Resources */ = {
+		A373E8BE205A037300D92961 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A39580171F8047C2002B6D52 /* LaunchScreen.storyboard in Resources */,
-				A39580141F8047C2002B6D52 /* Assets.xcassets in Resources */,
-				A39580121F8047C2002B6D52 /* Main.storyboard in Resources */,
+				A373E8CE205A037300D92961 /* LaunchScreen.storyboard in Resources */,
+				A373E8CB205A037300D92961 /* Assets.xcassets in Resources */,
+				A373E8C9205A037300D92961 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A39580051F8047C2002B6D52 /* Sources */ = {
+		A373E8BC205A037300D92961 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3D300741F86BE8400E1FE87 /* ViewController.swift in Sources */,
-				A395800F1F8047C2002B6D52 /* ViewController_1.swift in Sources */,
-				A395800D1F8047C2002B6D52 /* AppDelegate.swift in Sources */,
+				A373E8C6205A037300D92961 /* CollectionViewController.swift in Sources */,
+				A373E8C4205A037300D92961 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A39580101F8047C2002B6D52 /* Main.storyboard */ = {
+		A373E8C7205A037300D92961 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A39580111F8047C2002B6D52 /* Base */,
+				A373E8C8205A037300D92961 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A39580151F8047C2002B6D52 /* LaunchScreen.storyboard */ = {
+		A373E8CC205A037300D92961 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A39580161F8047C2002B6D52 /* Base */,
+				A373E8CD205A037300D92961 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A39580191F8047C2002B6D52 /* Debug */ = {
+		A373E8D0205A037300D92961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		A395801A1F8047C2002B6D52 /* Release */ = {
+		A373E8D1205A037300D92961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,58 +270,60 @@
 			};
 			name = Release;
 		};
-		A395801C1F8047C2002B6D52 /* Debug */ = {
+		A373E8D3205A037300D92961 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZQ32RSDG42;
-				INFOPLIST_FILE = UIScrollView/Info.plist;
+				INFOPLIST_FILE = UICollectionView.contentInset/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderbaran.UIScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexanderbaran.UICollectionView-contentInset";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		A395801D1F8047C2002B6D52 /* Release */ = {
+		A373E8D4205A037300D92961 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZQ32RSDG42;
-				INFOPLIST_FILE = UIScrollView/Info.plist;
+				INFOPLIST_FILE = UICollectionView.contentInset/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderbaran.UIScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alexanderbaran.UICollectionView-contentInset";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A39580041F8047C2002B6D52 /* Build configuration list for PBXProject "UIScrollView" */ = {
+		A373E8BB205A037300D92961 /* Build configuration list for PBXProject "UICollectionView.contentInset" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A39580191F8047C2002B6D52 /* Debug */,
-				A395801A1F8047C2002B6D52 /* Release */,
+				A373E8D0205A037300D92961 /* Debug */,
+				A373E8D1205A037300D92961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A395801B1F8047C2002B6D52 /* Build configuration list for PBXNativeTarget "UIScrollView" */ = {
+		A373E8D2205A037300D92961 /* Build configuration list for PBXNativeTarget "UICollectionView.contentInset" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A395801C1F8047C2002B6D52 /* Debug */,
-				A395801D1F8047C2002B6D52 /* Release */,
+				A373E8D3205A037300D92961 /* Debug */,
+				A373E8D4205A037300D92961 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A39580011F8047C2002B6D52 /* Project object */;
+	rootObject = A373E8B8205A037300D92961 /* Project object */;
 }

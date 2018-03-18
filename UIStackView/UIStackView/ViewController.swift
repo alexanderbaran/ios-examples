@@ -43,6 +43,10 @@ class ViewController: UIViewController {
         
         stackView.widthAnchor.constraint(equalTo: scrollView.widthAnchor).isActive = true
         
+        // Need this or something else that works if want to set widthAnchor to the subviews.
+        // https://stackoverflow.com/questions/46593271/setting-constant-width-on-subview-of-uistackview-when-axis-is-vertical/46593365#46593365
+        stackView.alignment = .center
+        
         let view1 = UIView()
         view1.backgroundColor = .red
         
@@ -65,9 +69,23 @@ class ViewController: UIViewController {
         view3.heightAnchor.constraint(equalToConstant: 420).isActive = true
         view4.heightAnchor.constraint(equalToConstant: 100).isActive = true
         
-        // This does not work.
-//        view1.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        view1.widthAnchor.constraint(equalToConstant: 40).isActive = true
+        view2.widthAnchor.constraint(equalTo: stackView.widthAnchor).isActive = true
+        view3.widthAnchor.constraint(equalTo: stackView.widthAnchor).isActive = true
+        view4.widthAnchor.constraint(equalTo: stackView.widthAnchor).isActive = true
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 

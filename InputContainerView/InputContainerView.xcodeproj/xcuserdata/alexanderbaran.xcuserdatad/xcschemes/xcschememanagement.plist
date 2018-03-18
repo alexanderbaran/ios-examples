@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>UIScrollView.xcscheme</key>
+		<key>InputContainerView.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A39580081F8047C2002B6D52</key>
+		<key>A35FB3511FF4FFD100C763AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>

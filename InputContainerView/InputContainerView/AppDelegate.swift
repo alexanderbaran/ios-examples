@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  UIScrollView
+//  InputContainerView
 //
-//  Created by Alexander Baran on 30/09/2017.
+//  Created by Alexander Baran on 28/12/2017.
 //  Copyright © 2017 Alexander Baran. All rights reserved.
 //
 
@@ -19,7 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        window?.rootViewController = ViewController()
+        let activeMessagesFlowLayout = UICollectionViewFlowLayout()
+        let activeMessagesController = ActiveMessagesController(collectionViewLayout: activeMessagesFlowLayout)
+        let navigationController = UINavigationController(rootViewController: activeMessagesController)
+        window?.rootViewController = navigationController
         
         return true
     }

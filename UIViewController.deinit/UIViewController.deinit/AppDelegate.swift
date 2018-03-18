@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  UIScrollView
+//  UIViewController.deinit
 //
-//  Created by Alexander Baran on 30/09/2017.
-//  Copyright © 2017 Alexander Baran. All rights reserved.
+//  Created by Alexander Baran on 18/03/2018.
+//  Copyright © 2018 Alexander Baran. All rights reserved.
 //
 
 import UIKit
@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        window?.rootViewController = ViewController()
+//        let navigationController = 
         
         return true
     }
